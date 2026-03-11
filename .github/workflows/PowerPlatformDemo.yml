@@ -21,7 +21,7 @@ jobs:
       uses: microsoft/powerplatform-actions/unpack-solution@v1
       with:
         solution-file: 'out/MyTestSolution.zip'
-        solution-folder: 'out/solutions/solution one'
+        solution-folder: 'out/solutions/solution1'
         solution-type: 'Unmanaged'
         overwrite-files: true
 
